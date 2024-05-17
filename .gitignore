@@ -1,0 +1,7 @@
+artifact
+catboost_info
+mlruns
+logs
+saved_models
+DimondPricePrediction.egg-info
+env
