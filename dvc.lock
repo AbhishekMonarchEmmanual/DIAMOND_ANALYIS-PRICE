@@ -1,0 +1,27 @@
+schema: '2.0'
+stages:
+  Start_Model_Train:
+    cmd: python main.py
+    deps:
+    - path: src/components/data_ingestion.py
+      hash: md5
+      md5: 6625cb86c278db0e5551acfd1e3cc86e
+      size: 2221
+    - path: src/components/data_transformation.py
+      hash: md5
+      md5: af3df70f4f48f898f329acbaa5f22271
+      size: 5299
+    - path: src/components/model_trainer.py
+      hash: md5
+      md5: 968ccdcd87f2aa87664e26eb35f2a8d0
+      size: 6092
+    - path: src/pipeline/training.py
+      hash: md5
+      md5: 0101fffd47cca07139e9fd06668e7ce1
+      size: 2769
+    outs:
+    - path: saved_models
+      hash: md5
+      md5: cef22a9879d53609c8b5d4fc813ec1a2.dir
+      size: 316711
+      nfiles: 2

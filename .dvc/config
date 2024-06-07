@@ -1,0 +1,4 @@
+[core]
+    remote = remotre_storage
+['remote "remotre_storage"']
+    url = myremotestorage
