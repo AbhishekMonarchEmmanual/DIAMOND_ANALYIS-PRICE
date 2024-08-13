@@ -1,0 +1,102 @@
+[2024-07-16T11:47:21.323+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/training.py
+[2024-07-16T11:47:21.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/training.py for tasks to queue
+[2024-07-16T11:47:21.327+0000] {logging_mixin.py:188} INFO - [2024-07-16T11:47:21.326+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/training.py
+[2024-07-16T11:47:39.672+0000] {logging_mixin.py:188} INFO - [2024-07-16T11:47:39.539+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/training.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/training.py", line 4, in <module>
+    from src.components.data_ingestion import DataIngestion
+ModuleNotFoundError: No module named 'src'
+[2024-07-16T11:47:39.676+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/training.py
+[2024-07-16T11:47:39.837+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/training.py took 18.521 seconds
+[2024-07-16T11:48:10.251+0000] {processor.py:161} INFO - Started process (PID=117) to work on /opt/airflow/dags/training.py
+[2024-07-16T11:48:10.252+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/training.py for tasks to queue
+[2024-07-16T11:48:10.254+0000] {logging_mixin.py:188} INFO - [2024-07-16T11:48:10.254+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/training.py
+[2024-07-16T11:48:10.793+0000] {logging_mixin.py:188} INFO - [2024-07-16T11:48:10.789+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/training.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/training.py", line 4, in <module>
+    from src.components.data_ingestion import DataIngestion
+ModuleNotFoundError: No module named 'src'
+[2024-07-16T11:48:10.795+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/training.py
+[2024-07-16T11:48:12.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/training.py took 2.083 seconds
+[2024-07-16T11:48:43.078+0000] {processor.py:161} INFO - Started process (PID=175) to work on /opt/airflow/dags/training.py
+[2024-07-16T11:48:43.080+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/training.py for tasks to queue
+[2024-07-16T11:48:43.082+0000] {logging_mixin.py:188} INFO - [2024-07-16T11:48:43.082+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/training.py
+[2024-07-16T11:48:43.623+0000] {logging_mixin.py:188} INFO - [2024-07-16T11:48:43.616+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/training.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/training.py", line 4, in <module>
+    from src.components.data_ingestion import DataIngestion
+ModuleNotFoundError: No module named 'src'
+[2024-07-16T11:48:43.626+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/training.py
+[2024-07-16T11:48:43.838+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/training.py took 0.768 seconds
+[2024-07-16T11:49:13.979+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/training.py
+[2024-07-16T11:49:13.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/training.py for tasks to queue
+[2024-07-16T11:49:13.984+0000] {logging_mixin.py:188} INFO - [2024-07-16T11:49:13.983+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/training.py
+[2024-07-16T11:49:14.495+0000] {logging_mixin.py:188} INFO - [2024-07-16T11:49:14.488+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/training.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/training.py", line 4, in <module>
+    from src.components.data_ingestion import DataIngestion
+ModuleNotFoundError: No module named 'src'
+[2024-07-16T11:49:14.497+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/training.py
+[2024-07-16T11:49:14.601+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/training.py took 0.629 seconds
+[2024-07-16T11:49:45.177+0000] {processor.py:161} INFO - Started process (PID=297) to work on /opt/airflow/dags/training.py
+[2024-07-16T11:49:45.179+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/training.py for tasks to queue
+[2024-07-16T11:49:45.181+0000] {logging_mixin.py:188} INFO - [2024-07-16T11:49:45.181+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/training.py
+[2024-07-16T11:49:45.709+0000] {logging_mixin.py:188} INFO - [2024-07-16T11:49:45.703+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/training.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/training.py", line 4, in <module>
+    from src.components.data_ingestion import DataIngestion
+ModuleNotFoundError: No module named 'src'
+[2024-07-16T11:49:45.712+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/training.py
+[2024-07-16T11:49:46.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/training.py took 1.594 seconds
+[2024-07-16T11:50:17.009+0000] {processor.py:161} INFO - Started process (PID=357) to work on /opt/airflow/dags/training.py
+[2024-07-16T11:50:17.011+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/training.py for tasks to queue
+[2024-07-16T11:50:17.013+0000] {logging_mixin.py:188} INFO - [2024-07-16T11:50:17.013+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/training.py
+[2024-07-16T11:50:17.624+0000] {logging_mixin.py:188} INFO - [2024-07-16T11:50:17.619+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/training.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/training.py", line 4, in <module>
+    from src.components.data_ingestion import DataIngestion
+ModuleNotFoundError: No module named 'src'
+[2024-07-16T11:50:17.627+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/training.py
+[2024-07-16T11:50:18.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/training.py took 1.231 seconds
+[2024-07-16T11:50:48.308+0000] {processor.py:161} INFO - Started process (PID=418) to work on /opt/airflow/dags/training.py
+[2024-07-16T11:50:48.310+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/training.py for tasks to queue
+[2024-07-16T11:50:48.313+0000] {logging_mixin.py:188} INFO - [2024-07-16T11:50:48.312+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/training.py
+[2024-07-16T11:50:48.850+0000] {logging_mixin.py:188} INFO - [2024-07-16T11:50:48.844+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/training.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/training.py", line 4, in <module>
+    from src.components.data_ingestion import DataIngestion
+ModuleNotFoundError: No module named 'src'
+[2024-07-16T11:50:48.853+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/training.py
+[2024-07-16T11:50:49.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/training.py took 1.347 seconds
+[2024-07-16T11:51:19.863+0000] {processor.py:161} INFO - Started process (PID=478) to work on /opt/airflow/dags/training.py
+[2024-07-16T11:51:19.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/training.py for tasks to queue
+[2024-07-16T11:51:19.868+0000] {logging_mixin.py:188} INFO - [2024-07-16T11:51:19.868+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/training.py
+[2024-07-16T11:51:50.007+0000] {logging_mixin.py:188} INFO - [2024-07-16T11:51:50.006+0000] {timeout.py:68} ERROR - Process timed out, PID: 478

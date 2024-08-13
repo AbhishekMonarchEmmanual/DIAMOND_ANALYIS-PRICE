@@ -5,3 +5,6 @@ logs
 saved_models
 DimondPricePrediction.egg-info
 env
+
+E:\ineuron_practice\MLOPS\model_project_mlops\artifact.dvc
+airflow.cfg

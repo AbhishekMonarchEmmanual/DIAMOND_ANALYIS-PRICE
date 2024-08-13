@@ -8,3 +8,9 @@ stages:
       - src/components/model_trainer.py
     outs:
       - saved_models
+      - artifact/*/Data_Ingestion/model.pkl
+      - artifact/*/Data_Ingestion/*.csv
+      - artifact/*/Data_Transformation/model.pkl
+      - artifact/*/Data_Transformation/*.csv
+      - artifact/*/Model_Trainer/model.pkl
+      - artifact/*/Data_Trainer/*.csv
